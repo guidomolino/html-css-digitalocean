@@ -1,0 +1,19 @@
+
+nav{
+  /* position: fixed; */
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+nav img{
+  display: inline-block;
+}
+
+nav .lg-links ul{
+  margin: 0 5%;
+}
+
+nav .lg-links li{
+  display: inline-block;
+}

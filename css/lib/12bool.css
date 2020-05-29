@@ -1,17 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-.container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 [class^="col-"] {
   float: left;
-  height: 100%;
 }
 
 .clear-xs,.clear-md, .clear-lg{
