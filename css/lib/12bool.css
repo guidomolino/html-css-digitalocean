@@ -12,14 +12,12 @@
 @media all and (min-width:769px) and (max-width:992px){
   .container {
     max-width: 970px;
-    margin: 0 auto;
   }
 }
 
 @media all and (min-width:769px) and (max-width:992px){
   .container {
     max-width: 750px;
-    margin: 0 auto;
   }
 }
 
