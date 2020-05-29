@@ -163,6 +163,46 @@ header a{
   padding: 20px 10px;
 }
 
+/* BUSINESSES */
+
+.businesses{
+  background-color: #F3F5F9FF;
+  height: auto;
+  text-align: center;
+  color: #6F7B97FF;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+.businesses p{
+
+}
+
+.businesses img{
+  width: 100%;
+  height: auto;
+}
+
+.businesses .logo{
+  margin: 40px 20%;
+}
+
+.businesses a{
+  text-decoration: none;
+}
+
+/* DEPLOY */
+
+.deploy{
+  background-color: white;
+  padding: 80px 0;
+}
+
+.deploy > .row:first-child{
+  text-align: center;
+}
+
+
 /* DEBUG:  */
 
 .carousel{
