@@ -9,9 +9,29 @@
   margin: 0 auto;
 }
 
+@media all and (min-width:769px) and (max-width:992px){
+  .container {
+    max-width: 970px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width:769px) and (max-width:992px){
+  .container {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}
+
+.row::after{
+  clear: both;
+  content: '';
+  display: table;
+}
 
 [class^="col-"] {
   float: left;
+  padding: 0 15px;
 }
 
 .clear-xs,.clear-md, .clear-lg{

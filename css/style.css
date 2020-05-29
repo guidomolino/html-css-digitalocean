@@ -79,7 +79,7 @@ nav .lg-links a{
 header{
   background-image: url(../img/jumbo.svg);
   background-size: contain;
-  height: 500px;
+  height: auto;
   color: white;
   margin-top: 60px;
 }
@@ -99,9 +99,11 @@ header [class^="col"]:first-child p{
 
 /* sign box */
 
-header [class^="col"]:last-child{
+header .sign-box{
   background-color: white;
   text-align: center;
+  width: 80%;
+  margin: 0 10%;
   border-radius: 20px;
   height: auto;
   color: #031C4EFF;
@@ -137,12 +139,12 @@ header a{
   display: inline-block;
 }
 
-header #create{
+.sign-box #create{
   background-color: #579AFFFF;
   color: white;
 }
 
-header #sign-up{
+.sign-box #sign-up{
   border-bottom: 1px solid grey;
   border-right: 1px solid grey;
   color: #626262FF;
@@ -152,12 +154,12 @@ header #sign-up{
   float: left;
 }
 
-header #terms{
+.sign-box #terms{
   font-size: 14px;
   text-decoration: underline;
 }
 
-header [class^="col"]:last-child > p{
+.sign-box > p{
   padding: 20px 10px;
 }
 
