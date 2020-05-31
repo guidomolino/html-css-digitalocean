@@ -196,17 +196,98 @@ header a{
 .deploy{
   background-color: white;
   padding: 80px 0;
+  color: #5C6A88FF;
 }
 
-.deploy > .row:first-child{
+.deploy .container > .row:first-child{
   text-align: center;
+  margin-bottom: 60px;
+}
+
+.deploy .container > .row:first-child h1{
+  font-size: 40px;
+  color: #031C4EFF;
+}
+
+.deploy .container > .row:first-child p{
+  font-size: 25px;
+  margin-top: 8px;
 }
 
 
-/* DEBUG:  */
+.verticalLine {
+  border-left: 1px solid grey;
+  height: 202px;
+  float: left;
+  margin: 0 20px;
+}
+
+.deploy ul{
+  float: left;
+
+}
+
+.deploy li{
+  list-style: none;
+  margin: 15px 0;
+}
+
+.deploy a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+}
+
+.deploy img{
+  margin: 18px 0 10px 0;
+}
+
+.deploy h4{
+  font-size: 20px;
+  margin: 5px 0;
+  color: #031C4EFF;
+}
+
+/* CAROUSEL 1 */
 
 .carousel{
-  background-color: black;
+  text-align: center;
+  padding: 80px 0;
+  background-color: #F3F5F9FF;
+}
+
+.carousel .container .row > .col-12:first-child{
+  margin-bottom: 40px;
+}
+
+.carousel .container .row > .col-12:first-child h2{
+  font-size: 40px;
+  color: #031C4EFF;
+  margin-bottom: 20px;
+}
+
+.carousel .container .row > .col-12:first-child p{
+  font-size: 25px;
+  color: #5C6A88FF;
+}
+
+.carousel .col-2{
+  height: inherit;
+}
+
+.carousel .arrow{
+  font-size: 40px;
+  height: ;
+
+}
+
+.carousel img{
+
   width: 100%;
-  height: 500px;
+  height: auto;
+}
+
+.carousel .image{
+  width: 100%;
+  height: auto;
 }
