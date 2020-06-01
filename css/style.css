@@ -271,23 +271,161 @@ header a{
   color: #5C6A88FF;
 }
 
-.carousel .col-2{
-  height: inherit;
-}
-
 .carousel .arrow{
+  display: inline-block;
   font-size: 40px;
-  height: ;
+  width: 10%;
+  height: auto;
+  vertical-align: middle;
 
 }
 
 .carousel img{
-
-  width: 100%;
+  display: inline-block;
+  width: 50%;
   height: auto;
+  vertical-align: middle;
 }
 
-.carousel .image{
+.carousel .container .row > .col-12:last-child p{
+  margin-top: 35px;
+  color: #5C6A88FF;
+}
+
+.carousel .container .row > .col-12:last-child a{
+  color: blue;
+  display: inline-block;
+  margin: 35px 3px 0 3px;
+}
+
+/* FEATURES */
+
+.features{
+  padding: 80px 0;
+}
+
+.features h2{
+  text-align: center;
+  font-size: 40px;
+  color: #031C4EFF;
+  margin-bottom: 40px;
+}
+
+.features h3{
+  color: #031C4EFF;
+  margin: 15px 0;
+}
+
+.features p{
+  color: #5C6A88FF;
+}
+
+.features a{
+  display: block;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+/* CUSTOMERS */
+
+.customers{
+  background-color: blue;
+  padding: 80px 0;
+  color: white;
+}
+
+.customers h2{
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.customers .colonna{
+  margin: 40px 0;
+}
+
+.customers h5{
+  float: left;
+  width: 20%;
+}
+
+.customers p{
+  float: left;
+  width: 60%;
+  color: rgb(210, 210, 210);
+}
+
+.customers a{
+  float: left;
+  text-decoration: none;
+  color: #00D5D1FF;
+  width: 20%;
+}
+
+.customers hr{
+  margin: 10px 0;
+  float: left;
   width: 100%;
-  height: auto;
+}
+
+/* GET STARTED */
+
+.start{
+  background-color: blue;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.start h2{
+  color: white;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.start a{
+  color: blue;
+  background-color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #031C4EFF;
+  padding: 80px;
+  color: #A5ADBCFF;
+}
+
+footer h3{
+  margin-top: 20px;
+  color: white;
+}
+
+footer li{
+  list-style: none;
+}
+
+footer a{
+  color:inherit;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+footer p{
+  margin-top: 10px;
+}
+
+footer small{
+  color: #5A6887FF;
+}
+
+footer .i-social a{
+  color:#A5ADBCFF;
+  display: inline-block;
+  text-decoration: none;
+  margin: 15px 10px 15px 0;
 }
