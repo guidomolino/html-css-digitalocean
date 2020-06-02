@@ -30,6 +30,11 @@ nav .lg-links{
   margin-top: 5px;
 }
 
+nav .lg-links i{
+  font-size: 13px;
+  color: inherit;
+}
+
 nav .lg-links ul{
   display: inline-block;
   text-align: right;
@@ -62,6 +67,10 @@ nav .lg-links a{
 .hamburger img{
   width: 100%;
   height: auto;
+}
+
+.h-links{
+  display: none;
 }
 
 @media all and (max-width:992px) {
@@ -400,7 +409,7 @@ footer{
 }
 
 footer h3{
-  margin-top: 20px;
+  margin: 20px 0 10px 0;
   color: white;
 }
 
@@ -413,6 +422,10 @@ footer a{
   display: inline-block;
   text-decoration: none;
   margin: 5px 0;
+}
+
+footer a:hover{
+  text-decoration: underline;
 }
 
 footer p{
